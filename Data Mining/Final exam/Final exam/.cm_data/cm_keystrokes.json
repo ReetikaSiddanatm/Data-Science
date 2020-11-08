@@ -1,0 +1,144 @@
+{
+    "Python2.py": [
+        {
+            "operation": "PASTE",
+            "lines": 15,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:34:59",
+            "keyStrokeInfo": "data = read.csv(\"apriori_data.csv\", header = TRUE);\r\nView(data)\r\ndata$TID <- NULL\r\nlibrary(arules)\r\n\r\nwrite.csv(data, \"ItemList.csv\", quote = FALSE, row.names = TRUE)\r\ntransactions = read.transactions(\"ItemList.csv\", sep=',', rm.duplicates = TRUE)\r\ninspect(transactions)\r\n\r\nfrequent_itemsets <- apriori(transactions, parameter = list(sup = 0.03, conf = 0.5,target=\"frequent itemsets\"))\r\n\r\ninspect(sort(frequent_itemsets)[1:15])\r\n\r\nitemFrequencyPlot(transactions, topN = 5)",
+            "position": "1,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:26",
+            "keyStrokeInfo": "",
+            "position": "1,51"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:47",
+            "keyStrokeInfo": "",
+            "position": "3,16"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:48",
+            "keyStrokeInfo": "",
+            "position": "3,15"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:48",
+            "keyStrokeInfo": "",
+            "position": "3,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:48",
+            "keyStrokeInfo": "",
+            "position": "3,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:48",
+            "keyStrokeInfo": "",
+            "position": "3,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:48",
+            "keyStrokeInfo": "",
+            "position": "3,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:48",
+            "keyStrokeInfo": "",
+            "position": "3,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:48",
+            "keyStrokeInfo": "",
+            "position": "3,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:48",
+            "keyStrokeInfo": "",
+            "position": "3,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:48",
+            "keyStrokeInfo": "",
+            "position": "3,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:48",
+            "keyStrokeInfo": "",
+            "position": "3,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:48",
+            "keyStrokeInfo": "",
+            "position": "3,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:48",
+            "keyStrokeInfo": "",
+            "position": "3,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:48",
+            "keyStrokeInfo": "",
+            "position": "3,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:48",
+            "keyStrokeInfo": "",
+            "position": "3,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:48",
+            "keyStrokeInfo": "",
+            "position": "3,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:35:49",
+            "keyStrokeInfo": "",
+            "position": "3,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Nov 08 2020 08:36:19",
+            "keyStrokeInfo": "=",
+            "position": "5,58"
+        }
+    ]
+}
